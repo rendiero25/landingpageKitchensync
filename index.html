@@ -78,7 +78,7 @@
 
     <main class="flex flex-col justify-center mt-10 lg:px-15">
         <!-- SECTION 1 - START -->
-        <section class="flex flex-col justify-center px-3 lg:relative">
+        <section class="flex flex-col justify-center px-3 overflow-hidden lg:relative">
             <div class="lg:absolute flex justify-center items-center">
                 <img src="./images/crown3.png" alt="crown-icon" class="w-16">
             </div>
@@ -97,14 +97,14 @@
             <div class="lg:absolute flex justify-center items-center mt-5">
                 <img src="./images/moneysack.png" alt="crown-icon" class="w-20">
             </div>
-            <div class="absolute flex justify-start bottom-0 left-0 z-10">
+            <div class="absolute flex bottom-0 left-0">
                 <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36"></div>
             </div>
         </section>
         <!-- SECTION 1 - END -->
 
         <!-- SECTION 2 - START -->
-        <section class="bg-[#f5f5f5] mt-10 flex flex-col z-20 pb-20">
+        <section class="bg-[#f5f5f5] mt-10 flex flex-col pb-20 z-20">
             <!-- KENAPA HARUS BERGABUNG DENGAN KAMI - START -->
             <div class="relative bg-[#f5f5f5] mt-5 px-8 py-5 flex flex-col justify-center">
                 <h1 class="text-3xl font-bold text-center leading-10 z-20">Kenapa Harus Bergabung &nbsp; dengan Kami?</h1>
@@ -131,8 +131,8 @@
                     <p class="text-center mt-5 font-medium"><span class="text-[#018201] underline font-black"><em>Kerja Ringan:</em></span>&nbsp; Setelah makanan dikirim, tugas hanya membantu 
                     menerima dan mendistribusikan pesanan kepada rekan-rekan kerjamu</p>
                 </div>
-                <div class="flex flex-wrap justify-center">
-                    <img src="./images/women.png" alt="woman" class="w-96">
+                <div class="flex justify-center">
+                    <img src="./images/women.png" alt="woman" class="w-96 mr-12">
                 </div>    
             </div>
             <!-- KENAPA HARUS BERGABUNG DENGAN KAMI - END -->
@@ -204,23 +204,101 @@
         <!-- SECTION 2 - END -->
 
         <!-- SECTION 3 - START -->
-        <section class="flex justify-center items-center">
-            <button class="mx-20">
+        <section class="relative flex justify-center items-center z-30 -mt-2">
+            <button class="absolute mx-20">
                 <p class="bg-[#FF0105] mt-4 px-5 py-4 text-xl font-bold rounded-full text-white">Daftar Sekarang</p>
             </button>
         </section>
         <!-- SECTION 3 - END -->
 
-        <!-- SECTION 4 - START -->
-        <div class="flex flex-wrap justify-center px-5 mt-5 gap-5">
+        <!-- SECTION 4 MOBILE VERSION - START -->
+        <section class="md:hidden flex flex-wrap justify-center px-5 mt-5">
             <div class="relative mt-5 px-8 py-5 flex flex-col justify-center z-20">
                 <h1 class="text-3xl font-bold text-center leading-10 z-20">Testimonial dari Customer Kami</h1>
                 <div class="absolute bg-[#EEAE26] h-4 w-52 ml-14 mt-16 z-10"></div>
             </div>
-            <div class="absolute flex justify-start bottom-0 left-0 z-10">
+            <div class="flex flex-col gap-10 justify-center items-center">
+                <div class="flex flex-col justify-center items-center">
+                    <p class="font-bold text-center">"Gampang banget ikutan KitchenSync! <br> Dapat 
+                        tambahan uang jajan tiap bukan. <br> Cocok banget buat yang 
+                        lagi cari cuan <br> tambahan."</p>
+                    <div class="flex flex-row justify-center items-center mt-2">
+                        <img src="./images/testi1.png" alt="imageratna" class="w-12">
+                        <div class="flex flex-col justify-center items-start ml-5">
+                            <p class="font-bold">Ratna Fransisca</p>
+                            <p class="font-medium text-xs">Karyawan ASTRA FINANCIAL</p>
+                            <P class="font-medium text-xs">Jakarta</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <p class="font-bold text-center">"KitchenSync bantu aku dapat uang <br> tambahan
+                    sambil bantuin teman-teman <br> pesan makanan. Mantap!"</p>
+                    <div class="flex flex-row justify-center items-center mt-2">
+                        <img src="./images/testi2.png" alt="imagedevon" class="w-12">
+                        <div class="flex flex-col justify-center items-start ml-5">
+                            <p class="font-bold">Devon Zulkarnain</p>
+                            <p class="font-medium text-xs">Data Scientist BNI</p>
+                            <P class="font-medium text-xs">Bekasi</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <p class="font-bold text-center">"Nggak nyangka bisa dapat uang <br> tambahan
+                    dari KitchenSync. Programmnya <br> seru dan menguntungkan."</p>
+                    <div class="flex flex-row justify-center items-center mt-2">
+                        <img src="./images/testi3.png" alt="imagewidad" class="w-12">
+                        <div class="flex flex-col justify-center items-start ml-5">
+                            <p class="font-bold">Aminah Widad</p>
+                            <p class="font-medium text-xs">Karyawan BSI</p>
+                            <p class="font-medium text-xs">Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute flex justify-center">
+                    <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36 left-0"></div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 4 MOBILE VERSION - END --> 
+
+        <!-- SECTION 4 WEB VERSION - START -->
+        <!-- SECTION 4 WEB VERSION - END -->
+
+        <!-- SECTION 5 - START -->
+        <section class="relative flex justify-center items-center mt-10 py-5">
+            <div class="flex flex-col justify-center items-center">
+                <div class="px-8 py-5 flex flex-col justify-center">
+                    <h1 class="text-3xl font-bold text-center leading-10 z-20">Insentif dan Bonus yang Didapat</h1>
+                    <div class="absolute bg-[#EEAE26] h-4 w-64 ml-5 -mt-5 z-10"></div>
+                </div>
+                <div class="flex flex-col justify-center items-center mt-5">
+                    <p class="font-medium text-[#018201] text-center">Setiap order yang berhasil kamu kumpulkan setiap bulan
+                        akan diakumulasikan dan diberikan insentif yang dibayarkan tanggal 5 setiap bulan. Selain itu, 
+                        kamu juga dapat mengikuti challenge untuk mendapatkan bonus per 3 bulan yang dikumpulkan dari
+                        total order kamu dalam periode tersebut. <br> <span class="font-bold underline">Apa saja yang kamu akan dapat:</span>
+                    </p>
+                    <div class="flex flex-col justify-center items-centerpx-5 gap-5 mt-5">
+                        <div class="flex flex-col justify-center items-center">
+                            <img src="./images/1.png" alt="numberone" class="size-10">
+                            <p class="text-center mt-5 font-bold text-lg">INSENTIF BULANAN</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center">
+                            <img src="./images/2.png" alt="numbertwo" class="size-10">
+                            <p class="text-center mt-5 font-bold text-lg">BONUS CHALLENGE PER 3 BULAN DENGAN HADIAH YANG BERBEDA-BEDA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute flex top-0 right-0">
                 <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36"></div>
             </div>
-        </div> 
+            <div class="absolute flex bottom-0 left-0">
+                <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36"></div>
+            </div>
+        </section> 
+        <!--- SECTION 5 - END -->
+
     </main>
     
     <script src="./script.js"></script>
