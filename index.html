@@ -20,36 +20,42 @@
     <title>KitchenSync - Tambah Penghasilan Hingga Rp. 816 Ribu/Bulan</title> 
 </head>
 <body class="font-primary m-0 p-0 box-border">
+    <div class="absolute flex justify-end right-0 z-10">
+        <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36"></div>
+    </div>
     <!-- header mobile responsive -->
-    <header class="bg-white shadow-sm h-20 relative">
+    <header class="bg-white shadow-sm h-20 relative z-20">
+        <!--
         <div class="absolute flex justify-end right-0">
             <div class="bg-[#EEAE26] opacity-25 blur-3xl size-36"></div>
-        </div>
+        </div> -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-center h-16">
                 <div class="w-full flex flex-row justify-between items-center mt-5 gap-24 sm:gap-0 sm:ml-5">
-                    <div class="">
+                    <div class="xl:w-full xl:flex xl:flex-row xl:justify-around xl:items-center xl:gap-60">
                         <!-- social media -->
-                        <div class="hidden flex items-center mr-5">
-                            <img src="./images/instagram.png" alt="instagram" class="size-6 mr-2">
-                            <a href="#" class="font-bold text-sm">@kitchensync.id</a>
+                        <div class="flex flex-row">
+                            <div class="hidden flex xl:flex items-center mr-5">
+                                <img src="./images/instagram.png" alt="instagram" class="size-6 mr-2">
+                                <a href="#" class="font-bold text-sm">@kitchensync.id</a>
+                            </div>
+                            <div class="hidden flex xl:flex items-center">
+                                <img src="./images/linkedin.png" alt="linkedin" class="size-6 mr-2">
+                                <a href="#" class="text-sm font-bold">kitchensync-id</a>
+                            </div>
                         </div>
-                        <div class="hidden flex items-center">
-                            <img src="./images/linkedin.png" alt="linkedin" class="size-6 mr-2">
-                            <a href="#" class="text-sm font-bold">kitchensync-id</a>
-                        </div>
-
+                        
                         <!-- logo -->
                         <img src="./images/kitchensync.png" alt="kitchensync" class="w-56 space-x-4">
                     
                         <!-- Link website -->
-                        <div class="hidden">
+                        <div class="hidden xl:flex">
                             <a href="https://www.kitchensync.id" class="text-sm font-bold">www.kitchensync.id</a>
                         </div>
                     </div>
                     
                      <!-- Mobile menu button -->
-                    <div class="flex items-center sm:mr-5 md:hidden">
+                    <div class="flex items-center sm:mr-5 xl:hidden">
                         <button id="menu-button" class="focus:outline-none">
                             <img src="./images/menu.png" alt="menu-button" class="w-5 sm:w-7">
                         </button>
@@ -60,7 +66,7 @@
 
         <!-- Mobile menu-->
         <div id="mobile-menu" class="hidden">
-            <div class="md:hidden bg-white shadow-md flex flex-col justify-center items-center gap-5 mt-10">
+            <div class="xl:hidden bg-white shadow-md flex flex-col justify-center items-center gap-10 pt-10">
                 <div class="flex items-center">
                     <img src="./images/instagram.png" alt="instagram" class="size-6 mr-2">
                     <a href="#" class="font-bold text-sm">@kitchensync.id</a>
@@ -80,7 +86,7 @@
     <main class="flex flex-col justify-center mt-10">
         <!-- SECTION 1 - START -->
         <section class="flex flex-col justify-center px-3 overflow-hidden lg:relative">
-            <div class="lg:absolute flex justify-center items-center">
+            <div class="flex justify-center items-center">
                 <img src="./images/crown3.png" alt="crown-icon" class="w-16">
             </div>
             <div class="flex flex-col justify-center mt-5">
@@ -90,12 +96,12 @@
                 <button class="mx-20 sm:mx-48">
                     <p class="bg-[#FF0105] mt-4 px-5 py-4 text-xl font-bold rounded-full text-white">Daftar Sekarang</p>
                 </button>
-                <h2 class="font-medium text-xl text-[#018201] text-center mt-5 ">Sedang mencari cara untuk menambah penghasilan tanpa harus meninggalkan pekerjaan kantormu?
+                <h2 class="font-medium text-xl lg:text-2xl text-[#018201] text-center mt-5 ">Sedang mencari cara untuk menambah penghasilan tanpa harus meninggalkan pekerjaan kantormu?
                     kitchensync menawarkan peluang menarik untuk karyawan kantor seperti kamu! Bantu kami mengumpulkan 
                     pesananan makanan dari rekan kerjamu dan dapatkan insentif setiap kali ada yang memesan dari kamu! 
                 </h2>
             </div>
-            <div class="lg:absolute flex justify-center items-center mt-5">
+            <div class="flex justify-center items-center mt-5">
                 <img src="./images/moneysack.png" alt="crown-icon" class="w-20">
             </div>
             <div class="absolute flex bottom-0 left-0">
@@ -109,7 +115,7 @@
             <!-- KENAPA HARUS BERGABUNG DENGAN KAMI - START -->
             <div class="relative bg-[#f5f5f5] mt-5 px-8 py-5 flex flex-col justify-center">
                 <h1 class="text-3xl font-bold text-center leading-10 z-20">Kenapa Harus Bergabung &nbsp;dengan Kami?</h1>
-                <div class="absolute bg-[#EEAE26] h-4 w-36 ml-10 mt-5 z-10"></div>
+                <div class="absolute bg-[#EEAE26] h-4 w-36 md:w-44 xl:w-56 ml-10 md:ml-24 lg:ml-56 xl:ml-80 mt-5 z-10"></div>
             </div>
             <div class="flex flex-wrap justify-center px-5 gap-10">
                 <div class="flex flex-wrap justify-center">
@@ -176,27 +182,27 @@
             <!--APA KEUNTUNGAN UNTUK KAMU? - START -->
             <div class="flex flex-wrap mt-10 gap-5">
                 <div class="left-0 ">
-                    <img src="./images/recpics.png" alt="recpics" class="w-80">
+                    <img src="./images/recpics.png" alt="recpics" class="w-80 md:w-96 lg:w-3/4">
                 </div>
                 <div class="flex flex-col justify-center px-5 gap-5 sm:gap-10">
                     <div class="relative bg-[#f5f5f5] px-8 py-5 flex flex-col justify-center">
                         <h1 class="text-3xl font-bold text-center leading-10 z-20">Apa Keuntungannya untuk Kamu?</h1>
-                        <div class="absolute bg-[#EEAE26] h-4 w-52 ml-24 sm:ml-28 -mt-5 sm:mt-6 z-10"></div>
+                        <div class="absolute bg-[#EEAE26] h-4 w-52 md:w-64 ml-24 sm:ml-28 md:ml-32 lg:ml-64 xl:ml-96 -mt-5 sm:mt-6 z-10"></div>
                     </div>
                     <div class="flex flex-wrap justify-center px-5 gap-5 sm:gap-10">
-                        <div class="flex flex-wrap justify-center">
+                        <div class="flex flex-wrap justify-center xl:gap-5 xl:items-center">
                             <img src="./images/1.png" alt="numberone" class="size-10">
-                            <p class="text-center sm:text-2xl mt-5 font-medium"><span class="text-[#018201] underline font-black"><em>Penghasilan Tambahan Stabil:</em></span>&nbsp; 
+                            <p class="text-center sm:text-2xl mt-5 xl:mt-0 font-medium"><span class="text-[#018201] underline font-black"><em>Penghasilan Tambahan Stabil:</em></span>&nbsp; 
                             Dapatkan fee dari setiap pesanan tanpa keluar dari pekerjaan sekarang</p>
                         </div>
-                        <div class="flex flex-wrap justify-center">
+                        <div class="flex flex-wrap justify-center xl:gap-5 xl:items-center">
                             <img src="./images/2.png" alt="numbertwo" class="size-10">
-                            <p class="text-center mt-5 sm:text-2xl font-medium"><span class="text-[#018201] underline font-black"><em>Bonus Eksklusif:</em></span>&nbsp; 
+                            <p class="text-center mt-5 xl:mt-0 sm:text-2xl font-medium"><span class="text-[#018201] underline font-black"><em>Bonus Eksklusif:</em></span>&nbsp; 
                             Ikuti kampanye bonus kami setiap 3 bulan dan raih hadiah menarik</p>
                         </div>
-                        <div class="flex flex-wrap justify-center">
+                        <div class="flex flex-wrap justify-center xl:gap-5 xl:items-center">
                             <img src="./images/3.png" alt="numberthree" class="size-10">
-                            <p class="text-center mt-5 sm:text-2xl font-medium"><span class="text-[#018201] underline font-black"><em>Tanpa Modal:</em></span>&nbsp; 
+                            <p class="text-center mt-5 xl:mt-0 sm:text-2xl font-medium"><span class="text-[#018201] underline font-black"><em>Tanpa Modal:</em></span>&nbsp; 
                             Pendaftaran gratis-tidak ada biaya tersembunyi atau deposit yang diperlukan</p>
                         </div>
                     </div>
@@ -276,7 +282,7 @@
                     <div class="absolute bg-[#EEAE26] h-4 w-64 ml-5 mt-5 z-10"></div>
                 </div>
                 <div class="flex flex-col justify-center items-center mt-5">
-                    <p class="font-medium text-[#018201] sm:text-xl text-center">Setiap order yang berhasil kamu kumpulkan setiap bulan
+                    <p class="font-medium text-[#018201] sm:text-xl md:text-2xl text-center">Setiap order yang berhasil kamu kumpulkan setiap bulan
                         akan diakumulasikan dan diberikan insentif yang dibayarkan tanggal 5 setiap bulan. Selain itu, 
                         kamu juga dapat mengikuti challenge untuk mendapatkan bonus per 3 bulan yang dikumpulkan dari
                         total order kamu dalam periode tersebut. <br> <span class="font-bold underline">Apa saja yang kamu akan dapat:</span>
@@ -284,11 +290,11 @@
                     <div class="flex flex-col justify-center items-centerpx-5 gap-5 mt-5">
                         <div class="flex flex-col justify-center items-center">
                             <img src="./images/1.png" alt="numberone" class="size-10">
-                            <p class="text-center mt-5 font-bold text-xl">INSENTIF BULANAN</p>
+                            <p class="text-center mt-5 font-bold text-xl lg:text-2xl">INSENTIF BULANAN</p>
                         </div>
                         <div class="flex flex-col justify-center items-center">
                             <img src="./images/2.png" alt="numbertwo" class="size-10">
-                            <p class="text-center mt-5 font-bold text-xl">BONUS CHALLENGE PER 3 BULAN DENGAN HADIAH YANG BERBEDA-BEDA</p>
+                            <p class="text-center mt-5 font-bold text-xl lg:text-2xl">BONUS CHALLENGE PER 3 BULAN DENGAN HADIAH YANG BERBEDA-BEDA</p>
                         </div>
                     </div>
                 </div>
