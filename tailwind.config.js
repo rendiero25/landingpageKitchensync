@@ -9,7 +9,14 @@ module.exports = {
     fontFamily: {
       primary: ["Roboto", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      dropShadow: {
+        'shadow': '20px 20px 50px -3px rgba(0, 0, 0, 0.1)',
+      },
+      screens: {
+        '1px': '1px',
+      }
+    },
   },
   plugins: [],
 }
