@@ -1,9 +1,13 @@
+'use strict';
+
+// TOGGLE FOR HAMBURGER MENU ON MOBILE VERSION - START
 const menuButton = document.getElementById('menu-button');
 const mobileMenu = document.getElementById('mobile-menu');
 
 menuButton.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
 });
+// TOGGLE FOR HAMBURGER MENU ON MOBILE VERSION - END
 
 // COUNTDOWN TIMER - START
 // Set the date we're counting down to
