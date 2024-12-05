@@ -578,10 +578,6 @@ video {
   top: 0px;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -1334,8 +1330,8 @@ video {
     margin-left: 33rem;
   }
 
-  .\32xl\:ml-\[45rem\] {
-    margin-left: 45rem;
+  .\32xl\:ml-\[47rem\] {
+    margin-left: 47rem;
   }
 
   .\32xl\:ml-\[5rem\] {
@@ -1473,10 +1469,6 @@ video {
 
   .\32xl\:flex-row {
     flex-direction: row;
-  }
-
-  .\32xl\:flex-col {
-    flex-direction: column;
   }
 
   .\32xl\:flex-nowrap {

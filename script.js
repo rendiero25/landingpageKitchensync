@@ -11,7 +11,7 @@ menuButton.addEventListener('click', () => {
 
 // COUNTDOWN TIMER - START
 // Set the date we're counting down to
-let countDownDate = new Date("Dec 5, 2024 15:37:25").getTime();
+let countDownDate = new Date("Feb 5, 2025 15:37:25").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function() {
