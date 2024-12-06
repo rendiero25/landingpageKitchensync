@@ -1539,6 +1539,11 @@ video {
     padding-right: 9rem;
   }
 
+  .\32xl\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .\32xl\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
